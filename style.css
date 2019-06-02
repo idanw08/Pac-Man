@@ -1,0 +1,206 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background: black;
+	/* overflow: hidden; */
+	/* position: fixed; */
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	min-height: 98%;
+}
+
+#game,
+#register,
+#login,
+#about,
+#setting {
+	display: none;
+}
+
+h1,
+#loggedUser,
+#regSubmit,
+#logSubmit,
+.settingButton {
+	padding: 30px 0 0 0;
+	color: yellow;
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+}
+
+h1 {
+	font-size: 400%;
+	margin: 10px;
+}
+
+#loggedUser {
+	font-size: 70%;
+}
+
+#regSubmit,
+#logSubmit {
+	font-size: 80%;
+	background-color: black;
+	padding: 0.9%;
+}
+
+.settingButton {
+	font-size: 80%;
+	background-color: black;
+	padding: 5px;
+}
+
+input[type="color"] {
+	background-color: black;
+	-webkit-appearance: none;
+	border: none;
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: #fccf00;
+	align-items: center;
+	text-decoration: none;
+}
+
+#buttons {
+	width: 35%;
+	padding: 0 -20px 0 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#logo {
+	padding: 0 20px 0 0;
+}
+
+#welcome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+button {
+	background-color: black;
+	color: yellow;
+	font-family: 'Press Start 2P', cursive;
+}
+
+#welcome button {
+	width: 30%;
+	height: 50px;
+}
+
+#navbar button {
+	width: 120px;
+	height: 30px;
+}
+
+#userDisplay {
+	vertical-align: middle;
+}
+
+#loggedUser {
+	font-weight: bolder;
+	color: black;
+}
+
+#register {
+	flex-direction: column;
+	align-items: center;
+}
+
+#register form,
+#login form {
+	padding: 2%;
+	border: 5px solid blue;
+	text-align: center;
+	font: 1.2em "Fira Sans", sans-serif;
+	color: yellow;
+}
+
+#register form {
+	padding: 0;
+}
+
+#register td {
+	height: 50px;
+	padding: 0 15px;
+	text-align: left;
+}
+
+#game {
+	width: 100%;
+	padding: 15px 0 0 0;
+	/* display: flex; */
+	justify-content: space-around;
+	align-items: flex-start;
+	color: yellow;
+}
+
+.left h2 {
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	margin: 2px 30%;
+}
+
+.left,
+.right {
+	border: 6px rgb(125, 125, 255) dotted;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 70%;
+
+}
+
+.left {
+	width: 25%;
+	padding: 0 5px -80px 5px;
+}
+
+.right {
+	padding: 0 5px;
+}
+
+.left table {
+	table-layout: fixed;
+}
+
+.left input[type="button"] {
+	font-size: 110%;
+}
+
+#game td {
+	vertical-align: 0;
+}
+
+.left ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.right {
+	padding: 10px;
+}
+
+.right button {
+	width: 100%;
+	height: 120%;
+	font-size: 120%;
+}
+
+#about {
+	background-color: white;
+}
+
+footer {
+	/* height: 300px; */
+	margin-top: -30px;
+	color: #fccf00;
+	text-align: right;
+}
